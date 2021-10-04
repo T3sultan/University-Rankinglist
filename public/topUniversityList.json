@@ -1,0 +1,104 @@
+[
+    {
+        "id": "1",
+        "university": "University Of Dhaka",
+        "world_rank":"1586",
+         "impact_rank":"4273",
+         "Openness_rank":"1060",
+         "excellence_rank":"1692",
+         "yearly_buget":"2000000000"
+    },
+    {
+        "id": "2",
+        "university": "Bangladesh University of Engineering and Technology",
+        "world_rank":"1604",
+         "impact_rank":"4168",
+         "Openness_rank":"1227",
+         "excellence_rank":"1690",
+         "yearly_buget":"2400000000"
+    },
+    {
+        "id": "3",
+        "university": "Shahjalal University of Science & Technology",
+        "world_rank":"1897",
+         "impact_rank":"2385",
+         "Openness_rank":"1971",
+         "excellence_rank":"2627",
+         "yearly_buget":"2300000000"
+    },
+    {
+        "id": "4",
+        "university": "North South University Bangladesh",
+        "world_rank":"2134",
+         "impact_rank":"2750",
+         "Openness_rank":"1739",
+         "excellence_rank":"3173",
+         "yearly_buget":"2200000000"
+    },
+    {
+        "id": "5",
+        "university": "University Of Dhaka",
+        "world_rank":"2224",
+         "impact_rank":"5656",
+         "Openness_rank":"1425",
+         "excellence_rank":"2582",
+         "yearly_buget":"2100000000"
+    },
+    {
+        "id": "6",
+        "university": "Bangladesh Agricultural University",
+        "world_rank":"2461",
+         "impact_rank":"8481",
+         "Openness_rank":"1130",
+         "excellence_rank":"2614",
+         "yearly_buget":"1900000000"
+    },
+    {
+        "id": "7",
+        "university": "Jahangirnagar University",
+        "world_rank":"7587",
+         "impact_rank":"1751",
+         "Openness_rank":"1060",
+         "excellence_rank":"2485",
+         "yearly_buget":"1800000000"
+    },
+    {
+        "id": "8",
+        "university": "Brac University",
+        "world_rank":"2506",
+         "impact_rank":"4810",
+         "Openness_rank":"2222",
+         "excellence_rank":"3075",
+         "yearly_buget":"1800000000"
+    },
+    {
+        "id": "9",
+        "university": "University of Chittagong",
+        "world_rank":"2587",
+         "impact_rank":"6476",
+         "Openness_rank":"1917",
+         "excellence_rank":"2914",
+         "yearly_buget":"1700000000"
+    },
+    {
+        "id": "10",
+        "university": "Independent University Bangladesh",
+        "world_rank":"2888",
+         "impact_rank":"7553",
+         "Openness_rank":"2306",
+         "excellence_rank":"3141",
+         "yearly_buget":"1600000000"
+    },
+    {
+        "id": "11",
+        "university": "Daffodil International University",
+        "world_rank":"2938",
+         "impact_rank":"4819",
+         "Openness_rank":"3538",
+         "excellence_rank":"3458",
+         "yearly_buget":"1500000000"
+    }
+
+    
+    
+]
