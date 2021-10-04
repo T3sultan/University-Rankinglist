@@ -49,7 +49,7 @@ const UniversityDetails = () => {
                             <Card.Title>Undergraduates: {individualUniversity?.Undergraduates}</Card.Title>
                             <Card.Title>Postgraduates: {individualUniversity?.Postgraduates}</Card.Title>
                             <Card.Title>Website: {individualUniversity?.Website}</Card.Title>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button className="bg-success" variant="primary">See More ...</Button>
                         </Card.Body>
                     </Card>
                 </div>

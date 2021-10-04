@@ -11,7 +11,7 @@ const Home = () => {
     const [matchUniversitys, setMatchUniversity] = useState([]);
 
     //input change receive handler
-    const handleSearch = event => {
+    const handleSearchUniversity = event => {
         const searchValue = event.target.value.toLowerCase();
         const matchUniversity = univesities.filter(university => university.university.toLowerCase().includes(searchValue))
         setMatchUniversity(matchUniversity);
@@ -38,13 +38,13 @@ const Home = () => {
 
             <h1 className="top">LIST OF ALL TOP UNIVERSITY BANGLADESH</h1>
             {/* form */}
-            <Form style={{ width: '100%', }} className="d-flex my-3">
+            <Form style={{ width: '100%',borderColor:"black" }} className="d-flex my-3">
                 <FormControl
                     type="search"
                     placeholder="search university"
                     className="me-2"
                     aria-label="Search"
-                    onChange={handleSearch}
+                    onChange={handleSearchUniversity}
                 />
 
             </Form>
@@ -75,15 +75,15 @@ const Home = () => {
                             <tr className="table-list">
                                 <td className="table-list">{univeristy?.ranking}</td>
 
-                                <td>{univeristy?.world_rank}</td>
+                                <td className="style">{univeristy?.world_rank}</td>
 
-                                <td>{univeristy?.university}</td>
-                                <td>{univeristy?.impact_rank}</td>
-                                <td>{univeristy?.Openness_rank}</td>
-                                <td>{univeristy?.excellence_rank}</td>
-                                <td>{univeristy?.yearly_buget}</td>
+                                <td className="style">{univeristy?.university}</td>
+                                <td className="style">{univeristy?.impact_rank}</td>
+                                <td className="style">{univeristy?.Openness_rank}</td>
+                                <td className="style">{univeristy?.excellence_rank}</td>
+                                <td className="style">{univeristy?.yearly_buget}</td>
                                 <th><img className="rounded-circle w-25" src={univeristy?.image} alt="" /> </th>
-                                <td>
+                                <td className="style">
                                     <NavLink
                                         to={`/home/${univeristy?.ranking}`}
                                         activeStyle={{
