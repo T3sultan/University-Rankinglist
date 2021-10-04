@@ -11,4 +11,4 @@
 
 
 
-          LIVE LINK : 
+          LIVE LINK : https://bangladeshuniverstiylist-ranking.netlify.app/
