@@ -6,32 +6,32 @@ import Footer from '../Footer/Footer';
 import './UniversityDetails.css'
 
 const UniversityDetails = () => {
-    const { ranking } = useParams();
-    console.log(ranking)
+    // console.log(ranking)
     const [universityDetails, setUniversityDetails] = useState([]);
     const [individualUniversity, setIndividualUniversity] = useState({});
-
-
+    const { ranking } = useParams(); //use params from react-router dom
+    
+ //dataload
     useEffect(() => {
         fetch('/topUniversityListDetails.json')
             .then(res => res.json())
             .then(data => setUniversityDetails(data.university))
 
     }, []);
+    //match the data
     useEffect(() => {
         const findUniversity = universityDetails.find(university => university.ranking === ranking);
         setIndividualUniversity(findUniversity)
 
 
-    }, [universityDetails])
+    }, [universityDetails]) //dependences
 
     return (
         <div>
-            <Banner></Banner>
+        {/* banner */}
+            <Banner></Banner> 
             <Card.Title className="universityName">{individualUniversity?.univeristy}</Card.Title>
-           
-
-
+        
                 <div className="text-center mt-4 mb-4 details">
                     <Card style={{ width: '28rem', alignItems: 'center' }}>
                         <Card.Img variant="top" className="w-50" src={individualUniversity?.picture?.thumbnail} />
@@ -54,7 +54,8 @@ const UniversityDetails = () => {
                     </Card>
                 </div>
        
-
+ 
+            {/* footer */}
             <Footer></Footer>
 
         </div>

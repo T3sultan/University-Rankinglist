@@ -5,12 +5,21 @@ import Banner from '../Banner/Banner';
 import Footer from '../Footer/Footer';
 import './Home.css';
 
-
-
-
 const Home = () => {
+    //state 
     const [univesities, setUniversities] = useState([]);
     const [matchUniversitys, setMatchUniversity] = useState([]);
+
+    //input change receive handler
+    const handleSearch = event => {
+        const searchValue = event.target.value.toLowerCase();
+        const matchUniversity = univesities.filter(university => university.university.toLowerCase().includes(searchValue))
+        setMatchUniversity(matchUniversity);
+
+
+    }
+
+    //data load
 
     useEffect(() => {
 
@@ -21,19 +30,14 @@ const Home = () => {
                 setMatchUniversity(data)
             });
     }, []);
-    //input change receive handler
-    const handleSearch = event => {
-        const searchValue = event.target.value.toUpperCase();
-        const matchUniversity = univesities.filter(university => university.name.toUpperCase().includes(searchValue))
-        setMatchUniversity(matchUniversity);
 
-
-    }
     return (
         <div className="all-university">
+            {/* banner */}
             <Banner></Banner>
 
             <h1 className="top">LIST OF ALL TOP UNIVERSITY BANGLADESH</h1>
+            {/* form */}
             <Form style={{ width: '100%', }} className="d-flex my-3">
                 <FormControl
                     type="search"
@@ -44,6 +48,7 @@ const Home = () => {
                 />
 
             </Form>
+            {/* table */}
             <Table responsive="sm" className="my-5 bg-info">
                 <thead>
                     <tr>
@@ -66,7 +71,7 @@ const Home = () => {
                 <tbody>
 
                     {
-                        matchUniversitys.map(univeristy => (
+                        matchUniversitys.map(univeristy => ( //loop
                             <tr className="table-list">
                                 <td className="table-list">{univeristy?.ranking}</td>
 

@@ -1,6 +1,8 @@
 import './App.css';
 import Home from './components/Home/Home';
+//react router dom
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+//all components
 import About from './components/About/About';
 import NotPageFound from './components/NotPageFound/NotPageFound';
 import ContactPage from './components/ContactPage/ContactPage';
