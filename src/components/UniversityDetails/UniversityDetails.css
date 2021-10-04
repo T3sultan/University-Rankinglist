@@ -1,4 +1,12 @@
 .details{
     
-    
+  margin-left: 35%;
+  margin-bottom: 10px;
+ 
+}
+.universityName{
+    color: royalblue;
+}
+.all{
+  align-items: center;
 }

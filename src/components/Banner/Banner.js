@@ -13,7 +13,7 @@ const Banner = () => {
               The Best Learing Institution <br /> 
 
             </h4>
-            <h1 className="university">WELLCOME TO SEE EVERY UNIVERSITY</h1>
+            <h1 className="university">UNIVERSITY RANKING LIST OF BANGLADESH</h1>
             
             <button className="mt-3 about-btn">READ MORE</button>
           </div>
