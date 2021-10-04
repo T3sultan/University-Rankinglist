@@ -1,104 +1,112 @@
 [
     {
-        "id": "1",
+        "ranking": "1",
         "university": "University Of Dhaka",
-        "world_rank":"1586",
-         "impact_rank":"4273",
-         "Openness_rank":"1060",
-         "excellence_rank":"1692",
-         "yearly_buget":"2000000000"
+        "world_rank": "1586",
+        "impact_rank": "4273",
+        "Openness_rank": "1060",
+        "excellence_rank": "1692",
+        "yearly_buget": "2000000000",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Dhaka_University_logo.svg/180px-Dhaka_University_logo.svg.png"
     },
     {
-        "id": "2",
+        "ranking": "2",
         "university": "Bangladesh University of Engineering and Technology",
-        "world_rank":"1604",
-         "impact_rank":"4168",
-         "Openness_rank":"1227",
-         "excellence_rank":"1690",
-         "yearly_buget":"2400000000"
+        "world_rank": "1604",
+        "impact_rank": "4168",
+        "Openness_rank": "1227",
+        "excellence_rank": "1690",
+        "yearly_buget": "2400000000",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/da/BUET_LOGO.svg/220px-BUET_LOGO.svg.png"
     },
     {
-        "id": "3",
+        "ranking": "3",
         "university": "Shahjalal University of Science & Technology",
-        "world_rank":"1897",
-         "impact_rank":"2385",
-         "Openness_rank":"1971",
-         "excellence_rank":"2627",
-         "yearly_buget":"2300000000"
+        "world_rank": "1897",
+        "impact_rank": "2385",
+        "Openness_rank": "1971",
+        "excellence_rank": "2627",
+        "yearly_buget": "2300000000",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Shahjalal_University_of_Science_and_Technology_logo.png/150px-Shahjalal_University_of_Science_and_Technology_logo.png"
     },
     {
-        "id": "4",
+        "ranking": "4",
         "university": "North South University Bangladesh",
-        "world_rank":"2134",
-         "impact_rank":"2750",
-         "Openness_rank":"1739",
-         "excellence_rank":"3173",
-         "yearly_buget":"2200000000"
+        "world_rank": "2134",
+        "impact_rank": "2750",
+        "Openness_rank": "1739",
+        "excellence_rank": "3173",
+        "yearly_buget": "2200000000",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/North-South-University-logo-03.png/180px-North-South-University-logo-03.png"
     },
     {
-        "id": "5",
-        "university": "University Of Dhaka",
-        "world_rank":"2224",
-         "impact_rank":"5656",
-         "Openness_rank":"1425",
-         "excellence_rank":"2582",
-         "yearly_buget":"2100000000"
+        "ranking": "5",
+        "university": "Rajshahi University",
+        "world_rank": "2224",
+        "impact_rank": "5656",
+        "Openness_rank": "1425",
+        "excellence_rank": "2582",
+        "yearly_buget": "2100000000",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg/150px-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg.png"
     },
     {
-        "id": "6",
+        "ranking": "6",
         "university": "Bangladesh Agricultural University",
-        "world_rank":"2461",
-         "impact_rank":"8481",
-         "Openness_rank":"1130",
-         "excellence_rank":"2614",
-         "yearly_buget":"1900000000"
+        "world_rank": "2461",
+        "impact_rank": "8481",
+        "Openness_rank": "1130",
+        "excellence_rank": "2614",
+        "yearly_buget": "1900000000",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Bangladesh_Agricultural_University_%28crest%29.png/220px-Bangladesh_Agricultural_University_%28crest%29.png"
     },
     {
-        "id": "7",
+        "ranking": "7",
         "university": "Jahangirnagar University",
-        "world_rank":"7587",
-         "impact_rank":"1751",
-         "Openness_rank":"1060",
-         "excellence_rank":"2485",
-         "yearly_buget":"1800000000"
+        "world_rank": "7587",
+        "impact_rank": "1751",
+        "Openness_rank": "1060",
+        "excellence_rank": "2485",
+        "yearly_buget": "1800000000",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Jahangirnagar_University_%28emblem%29.png/120px-Jahangirnagar_University_%28emblem%29.png"
     },
     {
-        "id": "8",
+        "ranking": "8",
         "university": "Brac University",
-        "world_rank":"2506",
-         "impact_rank":"4810",
-         "Openness_rank":"2222",
-         "excellence_rank":"3075",
-         "yearly_buget":"1800000000"
+        "world_rank": "2506",
+        "impact_rank": "4810",
+        "Openness_rank": "2222",
+        "excellence_rank": "3075",
+        "yearly_buget": "1800000000",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Logo_of_Brac_University.png/200px-Logo_of_Brac_University.png"
     },
     {
-        "id": "9",
+        "ranking": "9",
         "university": "University of Chittagong",
-        "world_rank":"2587",
-         "impact_rank":"6476",
-         "Openness_rank":"1917",
-         "excellence_rank":"2914",
-         "yearly_buget":"1700000000"
+        "world_rank": "2587",
+        "impact_rank": "6476",
+        "Openness_rank": "1917",
+        "excellence_rank": "2914",
+        "yearly_buget": "1700000000",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/University_of_Chittagong_logo.svg/180px-University_of_Chittagong_logo.svg.png"
     },
     {
-        "id": "10",
+        "ranking": "10",
         "university": "Independent University Bangladesh",
-        "world_rank":"2888",
-         "impact_rank":"7553",
-         "Openness_rank":"2306",
-         "excellence_rank":"3141",
-         "yearly_buget":"1600000000"
+        "world_rank": "2888",
+        "impact_rank": "7553",
+        "Openness_rank": "2306",
+        "excellence_rank": "3141",
+        "yearly_buget": "1600000000",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Independent_University%2C_Bangladesh_logo.png/220px-Independent_University%2C_Bangladesh_logo.png"
     },
     {
-        "id": "11",
+        "ranking": "11",
         "university": "Daffodil International University",
-        "world_rank":"2938",
-         "impact_rank":"4819",
-         "Openness_rank":"3538",
-         "excellence_rank":"3458",
-         "yearly_buget":"1500000000"
+        "world_rank": "2938",
+        "impact_rank": "4819",
+        "Openness_rank": "3538",
+        "excellence_rank": "3458",
+        "yearly_buget": "1500000000",
+        "image": "data:image/png;base64,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"
     }
-
-    
-    
 ]

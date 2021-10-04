@@ -8,15 +8,14 @@ const Banner = () => {
       <div className="">
         <div className="row d-flex banner align-items-center justify-content-center">
           <MenuBar></MenuBar>
-          <div className="col-md-6">
-            <h1 className="title">
-              BE THE BASKETBALL <br /> STAR AND SHINE
-            </h1>
-            <p className="text-white text-center mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-            </p>
-            <button className="mt-3 about-btn">About Us</button>
+          <div className="col-12">
+            <h4 className="title">
+              The Best Learing Institution <br /> 
+
+            </h4>
+            <h1 className="university">WELLCOME TO SEE EVERY UNIVERSITY</h1>
+            
+            <button className="mt-3 about-btn">READ MORE</button>
           </div>
           <div className="col-md-6"></div>
         </div>

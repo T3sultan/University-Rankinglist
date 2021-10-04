@@ -1,0 +1,13 @@
+.top{
+  
+    color:slateblue;
+}
+.all-university{
+    background-color:rgb(209, 228, 235);
+    padding: 40px;
+}
+.table-list{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

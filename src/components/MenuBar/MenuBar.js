@@ -1,6 +1,6 @@
 import React from "react";
 import "./MenuBar.css";
-import logo from "../..//images/logo/baller-logo-3.png";
+import logo from "../..//images/logo/logo2.jpg";
 import { Link } from "react-router-dom";
 //import { userContext } from "./../../App";
 
@@ -13,21 +13,24 @@ const MenuBar = () => {
         <div className="row">
           <div className="col-md-2">
             <div className="logo-img">
-              <img className="w-75" src={logo} alt="" />
+              <img className="w-50 rounded-circle" src={logo} alt="" />
             </div>
           </div>
           <div className="col-md-10">
             <div className="menu-container ">
               <ul className="d-flex align-items-end justify-content-end">
                 <Link to="/home" className="items">
-                  <li>Home</li>
+                  <li>HOME</li>
                 </Link>
                
                 <Link to="/about" className="items">
-                  <li>About us</li>
+                  <li>ABOUT</li>
                 </Link>
                 <Link to="contact" className="items">
-                  <li>Contact us</li>
+                  <li>CONTACT</li>
+                </Link>
+                <Link to="news" className="items">
+                  <li>NEWS</li>
                 </Link>
               </ul>
             </div>

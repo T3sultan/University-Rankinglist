@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './components/About/About';
 import NotPageFound from './components/NotPageFound/NotPageFound';
 import ContactPage from './components/ContactPage/ContactPage';
+import NePage from './components/ContactPage/ContactPage';
+import News from './components/News/News';
 
 function App() {
   return (
@@ -21,6 +23,9 @@ function App() {
           </Route>
           <Route exact path="/contact">
             <ContactPage></ContactPage>
+          </Route>
+          <Route exact path="/news">
+              <News></News>
           </Route>
           <Route exact path='*'>
             <NotPageFound></NotPageFound>

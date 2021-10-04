@@ -1,7 +1,7 @@
 .banner {
-  background-image: url("https://templatekit.jegtheme.com/baller/wp-content/uploads/sites/100/2021/05/side-view-of-african-sporty-man-holding-basketball-ball-on-black.jpg"),
+  background-image: url("https://media.istockphoto.com/photos/quandrangle-lawn-at-the-university-of-washington-picture-id157505397?b=1&k=20&m=157505397&s=170667a&w=0&h=1o0yLp_EP3e3Q4DimO9PLikcfTxVSyQAUiBGAlWnmTg="),
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  height: 780px;
+  height: 680px;
   width: 100%;
   /* border: 1px solid red; */
   background-blend-mode: overlay;
@@ -12,12 +12,17 @@
 .title {
   color: white;
   font-weight: bold;
-  font-size: 59px;
+  font-size: 20px;
 }
 .about-btn {
-  background-color: #ff0505;
+  background-color:rgb(39, 34, 34);
   outline: none;
   border: none;
   padding: 17px 34px;
   color: white;
+  border-radius: 10px;
+  text-decoration: white;
+}
+.university{
+  color: wheat;
 }
