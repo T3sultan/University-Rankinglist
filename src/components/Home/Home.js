@@ -15,23 +15,30 @@ const Home = () => {
         fetch('/topUniversityList.json')
             .then(res => res.json())
             .then(data => setUniversities(data));
-    })
+    });
+    //input change receive handler
+    // const handleSearch = event => {
+    //     const searchValue = event.target.value.toLowerCase();
+    //     const matchEployee = univesities.filter(employee => employee.name.toLowerCase().includes(searchValue))
+    //     setUniversities(matchEployee)
+
+    // }
     return (
         <div className="all-university">
             <Banner></Banner>
            
                 <h1 className="top">LIST OF ALL TOP UNIVERSITY BANGLADESH</h1>
-                <Form style={{ width: '100%', marginLeft: '30px' }} className="d-flex my-3">
+                <Form style={{ width: '100%',  }} className="d-flex my-3">
                     <FormControl
                         type="search"
                         placeholder="search university"
                         className="me-2"
                         aria-label="Search"
-                    // onChange={handleSearch}
+                     //onChange={handleSearch}
                     />
 
                 </Form>
-                <Table responsive="sm" className="my-5">
+                <Table responsive="sm" className="my-5 bg-info">
                     <thead>
                         <tr>
                             <th>BD Ranking</th>
@@ -67,7 +74,7 @@ const Home = () => {
                                     <th><img className="rounded-circle w-25" src={univeristy?.image} alt="" /> </th>
                                     <td>
                                         <NavLink
-                                            to={`/univeristy/${univeristy?.id}`}
+                                            to={`/home/${univeristy?.ranking}`}
                                             activeStyle={{
                                                 fontWeight: "bold",
                                                 color: "red"

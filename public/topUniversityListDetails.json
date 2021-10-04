@@ -1,8 +1,8 @@
 {
   "university": [
     {
-      "id": "1",
-      "Other name":"DU",
+      "ranking": "1",
+      "Other_name":"DU",
       "univeristy": "University of Dhaka",
       "location": {
         "street": "Dhaka, 1000, Bangladesh",
@@ -14,7 +14,7 @@
       "Established": "1921; 100 years ago",
       "Affiliation": "University Grants Commission (UGC)",
       "Chancellor": "President of Bangladesh",
-      "Vice-Chancellor": "Mohammad Akhtaruzzaman",
+      "Vice_Chancellor": "Mohammad Akhtaruzzaman",
       "Students": "30,015",
       "Undergraduates": "23,000",
       "Postgraduates": "5,362",
@@ -24,8 +24,8 @@
       }
     },
     {
-      "id": "2",
-      "Other name":"BUET",
+      "ranking": "2",
+      "Other_name":"BUET",
       "univeristy": "Bangladesh University of Engineering and Technology",
       "location": {
         "street": "Dhaka, 1000, Bangladesh",
@@ -37,7 +37,7 @@
       "Established": "1876: Dhaka Survey",
       "Affiliation": "University Grants Commission (UGC)",
       "Chancellor": "President of Bangladesh",
-      "Vice-Chancellor": "Dr Sattaya Prosad Mojumdar",
+      "Vice_Chancellor": "Dr Sattaya Prosad Mojumdar",
       "Students": "9,234 ",
       "Undergraduates": "5,636 ",
       "Postgraduates": "3,598 ",
@@ -47,8 +47,8 @@
       }
     },
     {
-      "id": "3",
-      "Other name":"SUST",
+      "ranking": "3",
+      "Other_name":"SUST",
       "univeristy": "Shahjalal University of Science and Technology",
       "location": {
         "street": "Sylhet, 1000, Bangladesh",
@@ -60,7 +60,7 @@
       "Established": "25 August 1986",
       "Affiliation": "ACU IAU FUIW UGC WHO",
       "Chancellor": "President Abdul Hamid",
-      "Vice-Chancellor": "Farid Uddin Ahmed",
+      "Vice_Chancellor": "Farid Uddin Ahmed",
       "Students": "7,662",
       "Undergraduates": "5,792 ",
       "Postgraduates": "1,870 ",
@@ -70,8 +70,8 @@
       }
     },
     {
-      "id": "4",
-      "Other name":"NSU",
+      "ranking": "4",
+      "Other_name":"NSU",
       "univeristy": "North South University",
       "location": {
         "street": "Dhaka, 1100, Bangladesh",
@@ -83,7 +83,7 @@
       "Established": "1992; 29 years ago",
       "Affiliation": "UGC IEB",
       "Chancellor": "President of Bangladesh Abdul Hamid",
-      "Vice-Chancellor": "Atique Islam",
+      "Vice_Chancellor": "Atique Islam",
       "Students": "26,000 ",
       "Undergraduates": "17,517 ",
       "Postgraduates": "2,508 ",
@@ -94,8 +94,8 @@
       }
     },
     {
-      "id": "5",
-      "Other name":"RU",
+      "ranking": "5",
+      "Other_name":"RU",
       "univeristy": "Rajshahi University",
       "location": {
         "street": "Rajshahi, 1000, Bangladesh",
@@ -107,7 +107,7 @@
       "Established": "6 July 1953; 68 years ago",
       "Affiliation": "University Grants Commission of Bangladesh",
       "Chancellor": "President of Bangladesh Abdul Hamid",
-      "Vice-Chancellor": "Professor Dr. Golam Shabbir Sattar[1]",
+      "Vice_Chancellor": "Professor Dr. Golam Shabbir Sattar[1]",
       "Students": "38,291",
       "Undergraduates": "15,258 ",
       "Postgraduates": "9,125 ",
@@ -118,8 +118,8 @@
       }
     },
     {
-      "id": "6",
-      "Other name":"BAU",
+      "ranking": "6",
+      "Other_name":"BAU",
       "univeristy": "Bangladesh Agricultural University",
       "location": {
         "street": "Mymensingh, Bangladesh",
@@ -131,7 +131,7 @@
       "Established": "18 August 1961; 60 years ago",
       "Affiliation": "University Grants Commission of Bangladesh",
       "Chancellor": "President of Bangladesh Abdul Hamid",
-      "Vice-Chancellor": "Professor Dr. Golam Shabbir Sattar[1]",
+      "Vice_Chancellor": "Professor Dr. Golam Shabbir Sattar[1]",
       "Students": "5400",
       "Undergraduates": "4300",
       "Postgraduates": "1150",
@@ -142,8 +142,8 @@
       }
     },
     {
-      "id": "7",
-      "Other name":"JU",
+      "ranking": "7",
+      "Other_name":"JU",
       "univeristy": "Jahangirnagar University",
       "location": {
         "street": "Dhaka, Bangladesh",
@@ -155,7 +155,7 @@
       "Established": "1970",
       "Affiliation": "University Grants Commission of Bangladesh",
       "Chancellor": "President of Bangladesh Abdul Hamid",
-      "Vice-Chancellor": "Farzana Islam",
+      "Vice_Chancellor": "Farzana Islam",
       "Students": "16,781 ",
       "Undergraduates": "14,560",
       "Postgraduates": "3,501 ",
@@ -166,8 +166,8 @@
       }
     },
     {
-      "id": "8",
-      "Other name":"BRU",
+      "ranking": "8",
+      "Other_name":"BRU",
       "univeristy": "BRAC University",
       "location": {
         "street": "Dhaka, Bangladesh",
@@ -179,7 +179,7 @@
       "Established": "1970",
       "Affiliation": "UGC IEB ACU",
       "Chancellor": "President of Bangladesh Abdul Hamid",
-      "Vice-Chancellor": "Vincent Changm",
+      "Vice_Chancellor": "Vincent Changm",
       "Students": "11200 ",
       "Undergraduates": "10029",
       "Postgraduates": "1171 ",
@@ -190,8 +190,8 @@
       }
     },
     {
-      "id": "9",
-      "Other name":"CU",
+      "ranking": "9",
+      "Other_name":"CU",
       "univeristy": "University of Chittagong",
       "location": {
         "street": "Hathazari Upazila, Chittagong District, Bangladesh",
@@ -203,7 +203,7 @@
       "Established": "18 November 1966; 54 years ago",
       "Affiliation": "University Grants Commission Association of Commonwealth Universities",
       "Chancellor": "President of Bangladesh Abdul Hamid",
-      "Vice-Chancellor": "Shireen Akhter",
+      "Vice_Chancellor": "Shireen Akhter",
       "Students": "24,283 ",
       "Undergraduates": "10029",
       "Postgraduates": "1171 ",
@@ -214,8 +214,8 @@
       }
     },
     {
-      "id": "10",
-      "Other name":"IU",
+      "ranking": "10",
+      "Other_name":"IU",
       "univeristy": "Independent University ",
       "location": {
         "street": "Plot 16, Block B, Aftabuddin Ahmed Road, Bashundhara, Dhaka, Bangladesh",
@@ -227,7 +227,7 @@
       "Established": "1993; 28 years ago",
       "Affiliation": "UGC IEB ACU",
       "Chancellor": "President of Bangladesh Abdul Hamid",
-      "Vice-Chancellor": "Tanweer Hasan",
+      "Vice_Chancellor": "Tanweer Hasan",
       "Students": "7,500 ",
       "Undergraduates": "13029",
       "Postgraduates": "1161 ",
@@ -238,8 +238,8 @@
       }
     },
     {
-      "id": "11",
-      "Other name":"DIU",
+      "ranking": "11",
+      "Other_name":"DIU",
       "univeristy": "Daffodil International University",
       "location": {
         "street": "Dhaka, Bangladesh",
@@ -251,7 +251,7 @@
       "Established": "2002; 19 years ago",
       "Affiliation": "UGC IEB ACU",
       "Chancellor": "President of Bangladesh Abdul Hamid",
-      "Vice-Chancellor": "M.Lutfar Rahman",
+      "Vice_Chancellor": "M.Lutfar Rahman",
       "Students": "21,752  ",
       "Undergraduates": "20,521 ",
       "Postgraduates": "1,231  ",

@@ -6,6 +6,7 @@ import NotPageFound from './components/NotPageFound/NotPageFound';
 import ContactPage from './components/ContactPage/ContactPage';
 import NePage from './components/ContactPage/ContactPage';
 import News from './components/News/News';
+import UniversityDetails from './components/UniversityDetails/UniversityDetails';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           <Route exact path="/home">
             <Home></Home>
           </Route>
+          <Route exact path="/home/:ranking">
+            <UniversityDetails></UniversityDetails>
+          </Route>
           <Route exact path="/about">
             <About></About>
           </Route>
@@ -25,7 +29,7 @@ function App() {
             <ContactPage></ContactPage>
           </Route>
           <Route exact path="/news">
-              <News></News>
+            <News></News>
           </Route>
           <Route exact path='*'>
             <NotPageFound></NotPageFound>
